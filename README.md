@@ -1,3 +1,6 @@
+## Work in progress !! 
+Skill isnt working at the moment
+
 ## Say Hello To
 Simple skill to let mycroft say hi to someone
 
