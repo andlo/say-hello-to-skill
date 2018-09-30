@@ -1,2 +1,3 @@
-Hello {{name}} - nice to meet you
-Hi {{name}} - good to see you
+Hello {{name}}. Nice to meet you.
+Hi {{name}}. Good to see you.
+
