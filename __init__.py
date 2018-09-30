@@ -1,7 +1,10 @@
-from mycroft import MycroftSkill, intent_file_handler
+from adapt.intent import IntentBuilder
+from mycroft import MycroftSkill, intent_file_handler, intent_handler
 
 
 class SayHelloTo(MycroftSkill):
+    @intent_handler(IntentBuilder("") \
+            .requeire("SayHelloToKeyword").require("Name"))
     def __init__(self):
         MycroftSkill.__init__(self)
 
