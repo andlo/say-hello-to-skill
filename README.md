@@ -11,6 +11,6 @@ Simple skill to let mycroft say hi to someone
 
 
 ## Credits
-Andreas Lorensen...xxx
+Andreas Lorensen
 
 
