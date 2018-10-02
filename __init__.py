@@ -12,3 +12,4 @@ class SayHelloTo(MycroftSkill):
 def create_skill():
     return SayHelloTo()
 
+"""
