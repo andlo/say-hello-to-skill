@@ -3,8 +3,8 @@ from mycroft import MycroftSkill, intent_handler
 
 
 class SayHelloTo(MycroftSkill):
-    
-    @intent_handler(IntentBuilder("").require("say").require("hello").require("meet").require("thisis"))
+   
+    @intent_handler(IntentBuilder("").require("meet").require("thisis"))
     
     def  handle_say_hello_to_intent(self, message):
         response = {'name': message.data.get("Name")}
