@@ -4,6 +4,6 @@
     "set_context": {"_TestRunner": "data", "test": ""},
     "intent_type": "SayHelloToIntent",
     "intent": {
-    "name": "Sonia",
-    },
+    "name": "Sonia"
+    }
 }
