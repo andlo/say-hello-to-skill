@@ -8,7 +8,7 @@ class SayHelloTo(MycroftSkill):
     #@intent_handler(IntentBuilder("").require("say").optionally("hello").optionally("to"))
     @intent_file_handler('to.hello.say.intent')
     def  handle_say_hello_to_intent(self, message):
-        response = {'name': message.data.get("Name")}
+        response = {'name': message.data.get("name")}
         #response = message.utterance_remainder()
         self.speak_dialog("to.hello.say", data=response)
 
