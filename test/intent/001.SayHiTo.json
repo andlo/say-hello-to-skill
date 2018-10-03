@@ -1,9 +1,4 @@
 {
     "utterance": "Say Hello to Sonia",
-    "remove_context": ["UndoContext", "ConfirmContext"],
-    "set_context": {"_TestRunner": "data", "test": ""},
-    "intent_type": "SayHelloToIntent",
-    "intent": {
-    "name": "Sonia"
-    }
+    "intent_type": "SayHelloTo",
 }
