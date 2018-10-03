@@ -1,4 +1,7 @@
 {
     "utterance": "Say Hello to Sonia",
-    "expected_dialog": "to.hello.say"
+    "expected_dialog": "to.hello.say",
+    "intent": {
+        "Name": "Sonia"
+        }
 }
